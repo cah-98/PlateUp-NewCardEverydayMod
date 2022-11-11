@@ -7,10 +7,10 @@ namespace MorePlayers;
 
 [BepInPlugin(Guid, Name, Version)]
 [BepInProcess("PlateUp.exe")]
-public class MorePlayers : BaseUnityPlugin
+public class NewCardEveryday : BaseUnityPlugin
 {
-    private const string Guid = "MorePlayers";
-    private const string Name = "MorePlayers";
+    private const string Guid = "NewCardEveryday";
+    private const string Name = "NewCardEveryday";
     private const string Version = "1.0.0";
     
     internal static ManualLogSource Log;
@@ -22,7 +22,7 @@ public class MorePlayers : BaseUnityPlugin
         var harmony = new Harmony(Guid);
         harmony.PatchAll();
 
-        Log.LogMessage("Loaded MorePlayers version: " + Version);
+        Log.LogMessage("Loaded NewCardEveryday version: " + Version);
         
         ConfigHelper.SetUp(Config);
     }
