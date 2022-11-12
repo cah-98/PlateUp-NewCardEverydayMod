@@ -25,7 +25,7 @@ namespace MorePlayers
             if (!flag)
             {
                 int day = CE.Field("_SingletonEntityQuery_SDay_54").GetValue<EntityQuery>().GetSingleton<SDay>().Day;
-                bool flag2 = !__instance.HasSingleton<CreateNewKitchen.SKitchenFirstFrame>() && day % ConfigHelper.GetCardDays() == 0 && day != 15;
+                bool flag2 = !__instance.HasSingleton<CreateNewKitchen.SKitchenFirstFrame>() && day % ConfigHelper.GetCardDays() == 0 && day != 15 && day != 5;
                 if (flag2)
                 {
                     CEAddRequest.GetValue(UnlockGroup.Generic);

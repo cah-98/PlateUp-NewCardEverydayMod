@@ -11,7 +11,7 @@ public class NewCardEveryday : BaseUnityPlugin
 {
     private const string Guid = "NewCardEveryday";
     private const string Name = "NewCardEveryday";
-    private const string Version = "1.0.0";
+    private const string Version = "1.0.1";
     
     internal static ManualLogSource Log;
 
