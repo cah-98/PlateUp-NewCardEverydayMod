@@ -1,3 +1,4 @@
+# No longer maintained!
 # PlateUp-NewCardEverydayMod
 Mod that allows you to set which days should give new cards.
 
